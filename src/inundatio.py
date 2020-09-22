@@ -32,8 +32,8 @@ def get_houses(target_image: np.array) -> list:
                 print('Number of Pixels: ', len(coordinates))
 
                 # Find min and max values for x and y
-                x_min, y_min = np.min(coordinates, axis=0)
-                x_max, y_max = np.max(coordinates, axis=0)
+                y_min, x_min = np.min(coordinates, axis=0)
+                y_max, x_max = np.max(coordinates, axis=0)
 
                 # Remove flood filled building from original image
                 target_image[mask] = 0
@@ -43,7 +43,3 @@ def get_houses(target_image: np.array) -> list:
                     coordinates_list.append([(x_min, y_min), (x_max, y_max)])
 
     return coordinates_list
-
-
-
-
