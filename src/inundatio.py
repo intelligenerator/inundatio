@@ -29,7 +29,7 @@ def get_houses(target_image: np.array) -> list:
 
                 # Find X,Y coordinates of all pixels with value 1
                 coordinates = np.argwhere(mask_int == 1)
-                print('Number of Pixels: ', len(coordinates))
+                # print('Number of Pixels: ', len(coordinates))
 
                 # Find min and max values for x and y
                 y_min, x_min = np.min(coordinates, axis=0)
