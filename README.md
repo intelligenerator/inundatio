@@ -1,4 +1,5 @@
 # inundatio
+
 Cut out houses from target data
 
 ## Table of Contents
@@ -93,8 +94,8 @@ see the [tags on this repository](https://github.com/intelligenerator/unet_datas
 
 ## Authors
 
-Boldizsar Zopcsak - [BoldizsarZopcsak](https://github.com/BoldizsarZopcsak)
-Henry Meyer - [Rapirkomet](https://github.com/rapirkomet)
+- Boldizsar Zopcsak - [BoldizsarZopcsak](https://github.com/BoldizsarZopcsak)
+- Henry Meyer - [Rapirkomet](https://github.com/rapirkomet)
 
 
 See also the list of
